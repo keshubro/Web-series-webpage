@@ -1,0 +1,233 @@
+/* color: #e67e22 */
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+   
+}
+
+#header{
+    text-align: center;
+        
+    
+    
+}
+
+#main{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    background-color: rgba(216, 216, 216, 0.38);
+    
+}
+
+.form-section{
+    display: flex;
+    justify-content: center;    
+    flex: 1 1 50%;
+    border-right: 1px solid #333;
+    
+/*
+    flex: 1 1 50%;
+    justify-content: center;
+    border-right: 1px solid #333;
+*/
+}
+
+.card-section{
+    display: flex;
+    flex:1 1 50%;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Add some padding inside the card container */
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.card-col {
+        display: flex;
+        flex-direction: row;
+        
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+      display: flex;
+      justify-content: flex-start;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      padding: 10px 50px;
+      flex-grow: 1 1 100%;
+      margin: 25px 25px;
+      border-radius: 10px;
+  }
+  
+
+
+
+
+
+#h {
+     background-color: rgba(155, 154, 154, 0.74);;
+     margin: 0;
+     padding: 10px;
+}
+
+.bod {
+    margin: 0;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%; 
+    align-items: center;
+}
+
+.card-title {
+    
+}
+
+.full {
+    display: block;
+    text-align: center;
+    background-color: rgba(155, 154, 154, 0.74);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+.container {
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 12px;
+}
+
+.options {
+    width: 100px;
+}
+
+input {
+    text-decoration: none;
+    
+}
+
+/* BUTTON */
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 5px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-top: 10px;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.form-col {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.form-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex:1 1 50%;
+    align-items: center;
+    padding: .5em;
+}
+
+
+/* Form */
+.wrapper {
+    
+    list-style-type: none;
+    padding: 0;
+    border-radius: 3px;
+    
+  }
+  
+  .form-row > label {
+      display: flex;
+      justify-content: flex-end; 
+      padding-right: 22px;
+      flex: 0 1 20%;
+      font-family: 'Lato', 'Arial', sans-serif;
+      font-weight: bold;
+/*      margin-right: -170px;*/
+  }
+  .form-row > input,
+.form-row > select{
+      display: flex;
+      justify-content: center;
+      flex: 0 1 40%;
+      padding: 5px;
+      text-decoration: none;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgba(216, 216, 216, 0.81);
+  }
+  .form-row > input,
+  .form-row > button {
+    padding: .5em;
+      
+  }
+  .form-row > button {
+   background: gray;
+   color: white;
+   border: 0;
+   font-size: 20px;
+   border-radius: 10px;
+  }
+
+.form-row > select{
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+select{
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 400;
+    padding: 2px;
+}
+
+
+.full-form {
+    flex: 1 1 100%;
+}
+
+
+
+#streaming-label {
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+}

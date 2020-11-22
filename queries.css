@@ -1,0 +1,143 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1360px) {
+    p{
+        font-size: 16px;
+    }
+    .form-row > label {
+          display: flex;
+          justify-content: flex-end; 
+          padding-right: 12px;
+          flex: 0 1 20%;
+          font-family: 'Lato', 'Arial', sans-serif;
+          font-weight: bold;
+   
+    }
+    
+    .form-section{
+        display: flex;
+        justify-content: center;    
+        flex: 1 1 35%;
+        border-right: 1px solid #333;
+    }
+    
+      .form-row > input,
+      .form-row > select{
+          display: flex;
+          justify-content: flex-start;
+          flex: 0 1 40%;
+          text-decoration: none;
+          outline: none;
+          border-radius: 5px;
+          border: 1px solid rgba(216, 216, 216, 0.81);
+      }
+    
+      .form-row > label {
+          display: flex;
+          justify-content: flex-end; 
+          padding-right: 3px;
+          flex: 0 1 20%;
+          font-family: 'Lato', 'Arial', sans-serif;
+          font-weight: bold;
+          font-size: 17px;
+    }
+    .form-row > button {
+        padding: .5em;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    .form-row > label {
+          display: flex;
+          justify-content: flex-end; 
+          padding-right: 12px;
+          flex: 0 1 20%;
+          font-family: 'Lato', 'Arial', sans-serif;
+          font-weight: bold;
+          font-size: 15px;
+    }
+    .form-section{
+        display: flex;
+        justify-content: center;    
+        flex: 1 1 35%;
+        border-right: 1px solid #333;
+    }
+    
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1200px) {
+    #main{
+        display: flex;
+        flex-direction: column; 
+        flex-grow: 1;
+        align-items: center;
+        background-color: rgba(216, 216, 216, 0.38);
+    
+    }
+    
+    .form-row > label {
+          display: flex;
+          justify-content: flex-end; 
+          padding-right: 12px;
+          flex: 0 1 100%;
+          font-family: 'Lato', 'Arial', sans-serif;
+          font-weight: bold;
+          font-size: 18px;
+    }
+    
+   
+    
+    .form-section{
+        border-right: none;
+        border-bottom: 1px solid #333;
+        margin-bottom: 20px;
+    }
+    
+
+    #streaming-label {
+        padding-right: 0;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    
+     .container {
+        margin: 0;
+        font-size: 22px;   
+    }
+    
+    p{
+        font-size: 20px;
+    }
+    
+    
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 730px) {
+    .card-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        margin: 0;
+        font-size: 24px;   
+    }
+    
+    p{
+        font-size: 20px;
+    }
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  
+}
+    

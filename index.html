@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>My Web Series</title>
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <!-- <link rel="stylesheet" type="text/css" href="vendors/css/animate.css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="queries.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body class="bod">
+        <header id="header">
+            <h1 id="h">WEB SERIES</h1>
+        </header>
+        <main id="main">   
+            
+            <section class="form-section">
+                <div class="full-form">
+                    <form>
+                          <ul class="wrapper">
+                            <li class="form-row">
+                              <label for="title">Title : </label>
+                              <input type="text" id="title">
+                            </li>
+                            <li class="form-row">
+                              <label for="director">Director : </label>
+                              <input type="text" id="director">
+                            </li>
+                            <li class="form-row">
+                              <label for="rating">Rating : </label>
+                              <input type="text" id="rating">
+                            </li>
+                            <li class="form-row">
+                              <label for="streaming-on" id="streaming-label">Streaming on : </label>
+                              <select name="find-us" id="find-us">
+                                <option value="friends" selected>Netflix</option>
+                                <option value="search">Hotstar</option>
+                                <option value="ad">Amazon</option>
+                                <option value="other">Sony Liv</option>
+                              </select>
+                            </li>
+                            <li class="form-row">
+                              <button type="submit">Submit</button>
+                            </li>
+                          </ul>
+                    </form>
+                </div>
+            </section>
+
+            <section class="card-row">
+                <div class="card-col">
+                    <div class="card">
+                        <div class="container">
+                            <strong class="full">Breaking Bad</strong>
+                            <p><strong>Director:</strong> Vince Gilligan</p>
+                            <p><strong>Streaming on:</strong> Netflix</p>
+                            <p><strong>Rating:</strong> 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                        </div>
+                    </div>  
+                    <div class="card">
+                        <div class="container">
+                            <strong class="full">Dark</strong>
+                            <p><strong>Director:</strong> Baran bo Odar</p>
+                            <p><strong>Streaming on:</strong> Netflix</p>
+                            <p><strong>Rating:</strong> 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="card-col">
+                    <div class="card">
+                        <div class="container">
+                            <strong class="full">This is us</strong>
+                            <p><strong>Director</strong>: Baran bo Odar</p>
+                            <p><strong>Streaming on</strong>: Hotstar</p>
+                            <p><strong>Rating</strong>: 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="container">
+                            <strong class="full">The Family Man</strong>
+                            <p><strong>Director</strong>: Raj Nidimoru </p>
+                            <p><strong>Streaming on</strong>: Amazon</p>
+                            <p><strong>Rating</strong>: 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="card-col">
+                    <div class="card">
+                        <div class="container">
+                            <strong class="full">Schitt's Creek</strong>
+                            <p><strong>Director</strong>: Andrew Cividino</p>
+                            <p><strong>Streaming on</strong>: Netflix</p>
+                            <p><strong>Rating</strong>: 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                        </div>
+                    </div> 
+                    <div class="card">
+                        <div class="container">
+                            <strong class="full">The Crown</strong>
+                            <p><strong>Director</strong>: Stephen Dald</p>
+                            <p><strong>Streaming on</strong>: Netflix</p>
+                            <p><strong>Rating</strong>: 
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+    
+    </body>
+    
+</html>
+
+<!--
+<div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-2">
+                            <label>Title</label>
+                        </div>
+                        <div class="col span-1-of-2 stream_on">
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-2">
+                            <label>Director</label>
+                        </div>
+                        <div class="col span-1-of-2 stream_on">
+                            <input type="text" name="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-2 ">
+                            <label for="find-us">Streaming on</label>
+                        </div>
+                        <div class="col span-1-of-2 stream_on">
+                            <select name="find-us" id="find-us">
+                                <option value="friends" selected>Netflix</option>
+                                <option value="search">Search engine</option>
+                                <option value="ad">Advertisement</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                        <input type="submit" value="Submit">
+                            <a class="btn btn-full js--scroll-to-plans" href="#">Submit</a>
+                        </div>
+                    </div>
+                    
+                </form>
+                
+            </div>
+-->
